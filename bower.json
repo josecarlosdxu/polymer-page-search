@@ -1,0 +1,19 @@
+{
+  "name": "page-search",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  },
+  "private": true,
+  "homepage": "https://github.com/josecarlosdxu/polymer-page-search",
+  "authors": [
+    "Madrid Pepín <jamd@gft.com>"
+  ],  
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
