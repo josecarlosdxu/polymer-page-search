@@ -94,7 +94,7 @@
             sendForm(evt) {
                const name = this.inputName || '';
                 if(this.validForm) {                   
-                    const detail = `?name=${name}`;
+                    const detail = {'name': name};
                     this.dispatchEvent(new CustomEvent('page-search-event', {
                        detail: detail,
                        bubbles: true,
